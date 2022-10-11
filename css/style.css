@@ -269,8 +269,8 @@ section.footer {
   list-style: none;
   display: flex;
   justify-content: space-between;
+  padding-inline-start: 27px;
 }
-
 
 .discover li button {
   border-radius: 21px;
@@ -278,15 +278,30 @@ section.footer {
   height: 44px;
   border: none;
   background-color: #ffffff;
+  display: flex;
+  line-height: 40px;
 }
 
 .discover li img {
   position: relative;
+  margin-top: 8px;
+  margin-left: 7px;
 }
 
 .discover li span {
   font-family: "Mulish", sans-serif;
   font-weight: 700;
-  margin-left: 6px;
   font-size: 13px;
+  margin-left: 6px;
+}
+
+/**************************   Photos Kismi   **********************************/
+
+.photos ul {
+  display: inline-flexbox;
+  padding: 12px;
+  margin-top: -15px;
+}
+.photos ul li {
+  list-style: none;
 }
