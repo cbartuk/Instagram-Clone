@@ -256,7 +256,6 @@ section.footer {
 
 .scan {
   display: inline-block;
-  float: right;
   width: 0;
   margin-top: 10px;
 }
