@@ -268,17 +268,28 @@ section.footer {
   list-style: none;
   display: flex;
   justify-content: space-between;
-  padding-inline-start: 27px;
+  padding-inline-start: 10px;
+  padding-inline-end: 10px;
 }
 
-.discover li button {
+.discover li a {
   border-radius: 21px;
   width: 89px;
-  height: 44px;
   border: none;
   background-color: #ffffff;
   display: flex;
   line-height: 40px;
+  color: #000;
+  text-decoration: none;
+}
+
+.discover li a:hover {
+  background-color:#000;
+  color:#fff;
+}
+
+.discover li a:hover img {
+  filter:invert(1);
 }
 
 .discover li img {
@@ -297,10 +308,13 @@ section.footer {
 /**************************   Photos Kismi   **********************************/
 
 .photos ul {
-  display: inline-flexbox;
-  padding: 12px;
-  margin-top: -15px;
+  column-count: 2;
+  column-gap: 5px;
+  padding: 0 15px;
 }
+
 .photos ul li {
-  list-style: none;
+ display: grid;
+ break-inside: avoid;
+ grid-template-rows: 1fr auto;
 }
