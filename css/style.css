@@ -309,12 +309,36 @@ section.footer {
 
 .photos ul {
   column-count: 2;
-  column-gap: 5px;
-  padding: 0 15px;
+  column-gap: 12px;
+  padding: 12px;
 }
 
 .photos ul li {
  display: grid;
  break-inside: avoid;
  grid-template-rows: 1fr auto;
+ margin-bottom: 12px;
+}
+
+/****************************** Profile ***************************************/
+
+.username {
+  width: 119px;
+  height: 15px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "Mulish", sans-serif;
+  margin-right: 79px;
+  color: #878D98;
+}
+
+.page-profile {
+  max-width: 414px;
+  width: 414px;
+  background-color: white;
+}
+
+.right-column-pp {
+  list-style: none;
 }
