@@ -284,12 +284,12 @@ section.footer {
 }
 
 .discover li a:hover {
-  background-color:#000;
-  color:#fff;
+  background-color: #000;
+  color: #fff;
 }
 
 .discover li a:hover img {
-  filter:invert(1);
+  filter: invert(1);
 }
 
 .discover li img {
@@ -314,10 +314,10 @@ section.footer {
 }
 
 .photos ul li {
- display: grid;
- break-inside: avoid;
- grid-template-rows: 1fr auto;
- margin-bottom: 12px;
+  display: grid;
+  break-inside: avoid;
+  grid-template-rows: 1fr auto;
+  margin-bottom: 12px;
 }
 
 /****************************** Profile ***************************************/
@@ -330,7 +330,7 @@ section.footer {
   font-weight: 700;
   font-family: "Mulish", sans-serif;
   margin-right: 79px;
-  color: #878D98;
+  color: #878d98;
 }
 
 .page-profile {
@@ -341,4 +341,28 @@ section.footer {
 
 .right-column-pp {
   list-style: none;
+}
+
+.pic-phase {
+  display: flex;
+  width: 286px;
+  height: 106px;
+  margin: auto;
+}
+
+.number {
+  font-family: "Mulish", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  width: 47px;
+  height: 15px; 
+}
+
+.texty {
+  font-family: "Mulish", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  width: 119px;
+  height: 15px;
+  color: #878D98;
 }
