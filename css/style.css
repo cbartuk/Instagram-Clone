@@ -379,6 +379,8 @@ section.footer {
 }
 
 .pp .big-pp {
+  border: 5px;
+  border-radius: 19px;
   background-image: linear-gradient(#ee00ff, #fd9300, #ff0400);
 }
 
