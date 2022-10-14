@@ -1,5 +1,7 @@
 body {
   font-family: "Mulish", sans-serif;
+  max-width: 414px;
+  width: 414px;
 }
 .page {
   max-width: 414px;
@@ -346,12 +348,13 @@ section.footer {
 .pic-phase {
   display: flex;
   width: 286px;
-  height: 106px;
-  margin: auto;
+  height: 88px;
+  justify-content: center;
+  margin-left: 69px;
 }
 
 .mid-pp {
-  margin: 0 auto;
+  align-items: center;
 }
 
 .number {
@@ -359,7 +362,7 @@ section.footer {
   font-size: 16px;
   font-weight: 700;
   width: 47px;
-  height: 15px; 
+  height: 15px;
 }
 
 .texty {
@@ -368,5 +371,18 @@ section.footer {
   font-weight: 700;
   width: 119px;
   height: 15px;
-  color: #878D98;
+  color: #878d98;
+}
+
+.pic-phase .pp {
+  display: grid;
+}
+
+.pp .big-pp {
+  background-image: linear-gradient(#ee00ff, #fd9300, #ff0400);
+}
+
+.pp .plus {
+  margin-left: 25px;
+  margin-top: -15px;
 }
