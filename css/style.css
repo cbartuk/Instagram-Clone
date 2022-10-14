@@ -350,6 +350,10 @@ section.footer {
   margin: auto;
 }
 
+.mid-pp {
+  margin: 0 auto;
+}
+
 .number {
   font-family: "Mulish", sans-serif;
   font-size: 16px;
